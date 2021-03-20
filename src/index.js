@@ -1,12 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+import SearchMovie from './components/SearchMovie'
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <div className='app'>
+      <h1 className='title'> React Movie Search</h1>
+      <SearchMovie />
+    </div>
   </React.StrictMode>,
   document.getElementById('root')
 );

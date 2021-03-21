@@ -1,0 +1,69 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SearchMovie Should render the form 1`] = `
+<DocumentFragment>
+  <div
+    class="movieContainer"
+    data-testid="SearchMovie__Container"
+  >
+    <form
+      class="form"
+    >
+      <label
+        class="label"
+        for="query"
+      >
+        Movie's Name
+      </label>
+      <input
+        class="input"
+        name="query"
+        placeholder="i.e. Star Wars"
+        type="text"
+        value=""
+      />
+      <button
+        class="button"
+      >
+        Search
+      </button>
+    </form>
+    <div
+      class="cardList"
+    />
+  </div>
+</DocumentFragment>
+`;
+
+exports[`SearchMovie Should render the form 2`] = `
+<div
+  class="movieContainer"
+  data-testid="SearchMovie__Container"
+>
+  <form
+    class="form"
+  >
+    <label
+      class="label"
+      for="query"
+    >
+      Movie's Name
+    </label>
+    <input
+      class="input"
+      name="query"
+      placeholder="i.e. Star Wars"
+      type="text"
+      value=""
+    />
+    <button
+      class="button"
+    >
+      Search
+    </button>
+  </form>
+  <div
+    class="cardList"
+  />
+</div>
+`;

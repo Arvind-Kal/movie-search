@@ -1,0 +1,51 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MovieCard should render Movie Card with a list of movies passed in. 1`] = `
+<DocumentFragment>
+  <div
+    class="cardList"
+  >
+    <div
+      class="card"
+    >
+      <img
+        alt="test movie poster"
+        class="card__image"
+        src="https://image.tmdb.org/t/p/w500/test poster path"
+      />
+      <div
+        class="card__content"
+      >
+        <h3
+          class="card__title"
+        >
+           test movie 
+        </h3>
+        <p
+          class="card__info"
+        >
+          Release Date: test release date 
+        </p>
+        <p
+          class="card__info"
+        >
+          Rating: test review 
+        </p>
+        <p
+          class="card__info"
+        >
+          Synopsis: test synopsis 
+        </p>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`MovieCard should render Movie Card with no movies passed in. 1`] = `
+<DocumentFragment>
+  <div
+    class="cardList"
+  />
+</DocumentFragment>
+`;

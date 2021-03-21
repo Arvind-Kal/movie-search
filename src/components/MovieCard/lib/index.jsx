@@ -36,6 +36,6 @@ MovieCard.propTypes = {
 
 MovieCard.defaultProps = {
     movies: []
-}
+};
 
 export default MovieCard;

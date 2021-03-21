@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
 import styles from './styles/SearchMovie.module.scss';
-import MovieCard from '../MovieCard';
+import MovieCard from '../../MovieCard/lib';
 
 const SearchMovie = () => {
     const [query, setQuery] = useState('');
@@ -23,7 +23,7 @@ const SearchMovie = () => {
     };
 
     return (
-        <div className='movieContainer'>
+        <div className='movieContainer' data-testid='SearchMovie__Container'>
             <form className={styles.form} onSubmit={searchMovie}>
                 <label className={styles.label} htmlFor='query'>Movie's Name</label>
                 <input 
